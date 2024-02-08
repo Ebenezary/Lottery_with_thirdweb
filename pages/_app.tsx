@@ -1,0 +1,24 @@
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import {
+  ThirdwebProvider,
+  metamaskWallet,
+  coinbaseWallet,
+  walletConnect,
+  useAddress,
+} from "@thirdweb-dev/react";
+import { Sepolia } from "@thirdweb-dev/chains";
+import { Toast } from "react-hot-toast";
+
+// import {sepolia} from "@thirdweb-dev/chains";
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <ThirdwebProvider
+      activeChain={Sepolia}
+      clientId={process.env.NEXT_PUBBLIC_CLIENT_ID}
+    >
+      <Component {...pageProps} />
+    </ThirdwebProvider>
+  );
+}
