@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider
       activeChain={Sepolia}
-      clientId={process.env.NEXT_PUBBLIC_CLIENT_ID}
+      clientId="a137f99284d09ec05eaf316cd8f239fd"
     >
       <Component {...pageProps} />
     </ThirdwebProvider>

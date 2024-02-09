@@ -28,7 +28,7 @@ function Home() {
   const [quantity, setQuantity] = useState<number>(1);
   const address = useAddress();
   const { contract, isLoading } = useContract(
-    process.env.NEXT_PUBLIC_LOTTERY_CONTRACT_ADDRESS
+    "0x437d9C2251bF6F02b8Cf594cc4641Ad2f7f94D8B"
   );
   const changePercentage = 0.001;
   const { data: getNumOfPlayers } = useContractRead(

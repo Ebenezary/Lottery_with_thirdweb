@@ -13,7 +13,7 @@ type Props = {
 };
 function CountdownTimer() {
   const { contract } = useContract(
-    process.env.NEXT_PUBLIC_LOTTERY_CONTRACT_ADDRESS
+    "0x437d9C2251bF6F02b8Cf594cc4641Ad2f7f94D8B"
   );
   const { data: getLastTimeStamp, isLoading } = useContractRead(
     contract,
