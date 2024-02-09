@@ -30,17 +30,17 @@ body {
 
 @layer components {
   .stats {
-    @apply bg-[#4c7c73] p-4 text-[#eff3f3] flex-1 rounded-md border-[#8ac9bd] border-2;
+    @apply bg-[#4c7c73] p-5 text-[#eff3f3] flex-1 rounded-md border-[#8ac9bd] border-2;
   }
 
   .stats-container {
-    @apply bg-[#4c7c73] p-3 rounded-lg text-[#eff3f3] border-[#8ac9bd] border;
+    @apply bg-[#4c7c73] p-4 rounded-lg text-[#eff3f3] border-[#8ac9bd] border;
   }
 
   .countdown {
     @apply p-5 text-3xl text-center  text-[#eff3f3] rounded-lg lg:min-w-[150px] bg-[#136355];
   }
   .countdown-label {
-    @apply lg:min-w-[150px] w-20 text-center uppercase text-[#eff3f3] text-sm pt-4;
+    @apply lg:min-w-[150px]  text-center uppercase text-[#eff3f3] text-sm pt-4;
   }
 }
