@@ -74,11 +74,6 @@ function CountdownTimer() {
               <div className="countdown">{minutes}</div>
               <div className="countdown-label">minutes</div>
             </div>
-
-            {/* <div className="flex-1">
-              <div className="countdown">{seconds}</div>
-              <div className="countdown-label">seconds</div>
-            </div> */}
           </div>
         </div>
       );
@@ -100,11 +95,6 @@ function CountdownTimer() {
               <div className="countdown">{minutes}</div>
               <div className="countdown-label">minutes</div>
             </div>
-
-            {/* <div className="flex-1">
-              <div className="countdown">{seconds}</div>
-              <div className="countdown-label">seconds</div>
-            </div> */}
           </div>
         </div>
       );
@@ -167,3 +157,13 @@ export default CountdownTimer;
 // }
 
 // export default CountdownTimer;
+
+//  {/* <div className="flex-1">
+//             <div className="countdown">{seconds}</div>
+//             <div className="countdown-label">seconds</div>
+//           </div> */}
+
+// {/* <div className="flex-1">
+//   <div className="countdown">{seconds}</div>
+//   <div className="countdown-label">seconds</div>
+// </div> */}
